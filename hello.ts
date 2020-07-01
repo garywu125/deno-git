@@ -13,5 +13,6 @@ export function HelloWorld(name: string, format: string): void {
 	if(format == "italic") {
 		text = italicIt(text)
 	}
-	console.log(text)
+    console.log(text)
+    
 }
